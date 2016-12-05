@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f5f5"
+    android:orientation="vertical">
+
+    <com.scnu.zhou.widget.TitleTextCell
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="学号"
+        app:text="20132100118"
+        app:isdivider="true"
+        android:layout_marginTop="16dp">
+
+    </com.scnu.zhou.widget.TitleTextCell>
+
+    <com.scnu.zhou.widget.TitleTextCell
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="姓名"
+        app:text="周楚鹏"
+        app:isdivider="true">
+
+    </com.scnu.zhou.widget.TitleTextCell>
+
+    <com.scnu.zhou.widget.TitleTextCell
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="性别"
+        app:text="保密"
+        app:isdivider="false">
+
+    </com.scnu.zhou.widget.TitleTextCell>
+
+</LinearLayout>
